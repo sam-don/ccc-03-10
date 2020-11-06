@@ -1,7 +1,1 @@
 venv
-.vscode
-BankDb.sql
-bankrecords.csv
-newfile.csv
-__pycache__
-.env
