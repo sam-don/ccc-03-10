@@ -1,13 +1,9 @@
+from dotenv import load_dotenv
+load_dotenv()
+
 from flask import Flask, request, jsonify, abort
 app = Flask(__name__)
-import psycopg2
-
-connection = psycopg2.connect(
-    database="library_api",
-    user="app",
-    password="Testing1",
-    host="localhost"
-)
+from database import cursor, connection
 
 cursor = connection.cursor()
 
