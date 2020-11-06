@@ -1,1 +1,7 @@
 venv
+.vscode
+__pycache__
+BankDb.sql
+bankrecords.csv
+newfile.csv
+.env
